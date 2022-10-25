@@ -1,0 +1,22 @@
+{
+    "Packages": {
+        "Install": {
+            "LinkGenerator": "You Should install ................ Microsoft.AspNetCore.Mvc.Core",
+            "AddDbContext Sqlite Error": "Install ............... Microsoft.EntityFrameworkCore.Sqlite"
+        }
+    },
+
+    "Errors": {
+        "Foreign Key Error": "AppIdentityDbContext Class  - Error_FKDelete"
+    },
+
+    "Snippet": {
+        "CreateAsyncScope - GetRequiredService": "AppInitializer  => Snippet-s1",
+        "GetService": "(IEndpointRouteBuilder)app.ServiceProvider.GetService <IResponseFormatter> ();"
+    },
+
+    "AppSettings": {
+        "Sqlite - ConnectionString": "  'IdentityConnection': 'Data source=met.db'",
+        "SqlServer - ConnectionString": "DefaultConnection':'Server=(LocalDB)\\MSSQLLocalDB;Database=Blogweb; Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+}

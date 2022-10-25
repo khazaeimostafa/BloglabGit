@@ -1,0 +1,9 @@
+{
+    "Add": "dotnet ef migrations Add IdentityMigration -p Infrastructure -s API -o Data/migrations -c AppIdentityDbContext",
+
+    "update": "dotnet ef database update -p Met -s API  -c  AppIdentityDbContext",
+
+    "remove": "dotnet ef migrations remove  -p Met -s API  -c AppIdentityDbContext --force",
+
+    "drop": "dotnet ef database drop -p Met -s API  -c  AppIdentityDbContext--force"
+}
